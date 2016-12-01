@@ -10,9 +10,6 @@ The idea is to have the web application hosted on a personal server and set it t
 
 To run the code, execute `index.html`.
 
-### BLOG ENTRY
-:pizza: [Link to blog entry](https://drexelui.wordpress.com/2016/12/01/cs-338-pizza-central/)
-
 ### NOTE
 :pizza: Songs in music player only play for a few seconds
 <br />
@@ -22,3 +19,6 @@ To run the code, execute `index.html`.
 - [ ] Remove links to embed content
 - [ ] Remove bottom padding from music player and agenda
 - [ ] Find alternate music player
+
+### BLOG ENTRY
+:pizza: [Link to blog entry](https://drexelui.wordpress.com/2016/12/01/cs-338-pizza-central/)
