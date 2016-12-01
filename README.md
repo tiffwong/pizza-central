@@ -15,7 +15,7 @@ To run the code, execute `index.html`.
 
 ### NOTE
 :pizza: Songs in music player only play for a few seconds
-
+<br />
 :pizza: Calendars in agenda must be set to public in order to be displayed
 
 ### TODO
