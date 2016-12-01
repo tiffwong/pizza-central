@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+    <link href="http://68.media.tumblr.com/tumblr_lkl74gHrDR1qfamg6.gif" rel="icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/494e1bc41f.js"></script>
+    
+</head>
+<body>
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a> 
+        <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-envelope"></i></a>
+        <a href="http://www.novelupdates.com/reading-list/"><i class="fa fa-book"></i></a>
+        <a href="https://play.spotify.com/collection/songs"><i class="fa fa-spotify"></i></a>
+        <a href="https://www.youtube.com/feed/subscriptions"><i class="fa fa-youtube"></i></a> 
+    </div>
+	<div class="container">
+        <div class="date">
+            <script>
+                var today = new Date();
+                
+                var dd   = today.getDate();
+                var mm   = today.getMonth()+1;
+                var yyyy = today.getFullYear();
+                
+                var options = {
+                    year: "numeric", month: "short", day: "numeric", 
+                    hour: "2-digit", minute: "2-digit"
+                };
+
+                
+                document.write(today.toLocaleTimeString("en-us", options));
+            </script>
+        </div>
+        <div class="weather">
+            <div class="card" style="padding: 10px">
+                <iframe id="forecast_embed" frameborder="0" height="220" width="100%" 
+                        src="http://forecast.io/embed/#lat=39.9526&lon=-75.1652&name=Philadelphia, PA"></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="card">
+                    <iframe allowtransparency="true" frameborder="0" height="300" width="100%" 
+                            src="https://embed.spotify.com/?uri=spotify:user:121408298:playlist:4dEpDeOlcyeoeovA2NjkKl&theme=white"></iframe>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="card">
+                    <iframe frameborder="0" height="300" width="100%" scrolling="no"
+                            src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=wong.tyan%40gmail.com&amp;color=%23858585&amp;src=2hbj94u87pgsr1lfiq6jadtke8%40group.calendar.google.com&amp;color=%23ffc600&amp;src=rr09e5ll7ngan4fu6hupl25334%40group.calendar.google.com&amp;color=%235d4581&amp;ctz=America%2FNew_York"></iframe>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="card">
+                    <form class="form-inline" method="post">
+                        <input id="new-item" class="form-control input-sm" name="new-item" type="text" required>
+                        <button id="add-item" class="btn btn-default btn-sm" type="submit"><i class="fa fa-plus"></i></button>
+                    </form>
+                    <ul id="todo-list"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
