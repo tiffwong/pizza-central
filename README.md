@@ -1,5 +1,8 @@
 # Pizza Central
 Created by Tiffany Wong
+Project for CS 338: Graphical User Interfaces
+
+Pizza Central isn’t about pizza. However, I did want the name to convey the idea of having all your favorite components or “toppings” in one place.
 
 The goal of this project is to combine the apps and extensions that are used daily into one web application in order to minimize the amount of time switching between tabs or even windows. Included in the project is the date and time, a music player (Spotify), an agenda (Google Calendar) and a to do list. On the top of the web application is a horizontal bar that contains commonly used links.
 
@@ -12,6 +15,7 @@ To run the code, execute `index.html`.
 
 ### NOTE
 :pizza: Songs in music player only play for a few seconds
+
 :pizza: Calendars in agenda must be set to public in order to be displayed
 
 ### TODO
