@@ -1,5 +1,6 @@
 # Pizza Central
 Created by Tiffany Wong
+<br />
 Project for CS 338: Graphical User Interfaces
 
 Pizza Central isn’t about pizza. However, I did want the name to convey the idea of having all your favorite components or “toppings” in one place.
